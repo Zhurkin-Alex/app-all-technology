@@ -7,6 +7,7 @@ function Home(props) {
     const todos = useSelector(state => state.main.todos)
     console.log('todos', todos)
     const dispatch = useDispatch()
+    
 
     return (
         <>
